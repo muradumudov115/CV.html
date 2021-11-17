@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cv</title>
+</head>
+
+
+<style>h2
+    {text-align: center;}
+</style>
+
+
+<body>
+   
+ <h2>Application form</h2>
+
+  
+ 
+  <form action="/action_page.php">
+  <label for="name">Ad:</label><br>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="surname">Soyad:</label><br>
+  <input type="text" id="surname" name="surname"><br><br>
+  <label for="pwd">Şifrə:</label><br>
+  <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+
+
+
+    <label for="">Cinsinizi seçin:</label><br>
+    <label for="man">K</label>  <input type="radio" id="man" name="gender_choose" value="Man"> 
+
+    <label for="woman">Q</label><input type="radio" id="woman" name="gender_choose" value="Woman"><br><br>
+   
+
+
+    <label for="">Bitirdiyiniz təhsil dərəcələrini seçin:</label><br>
+    <input type="checkbox" name="education1" value="medium">
+    <label for="education1"> Orta</label><br>
+    <input type="checkbox" name="education2" value="bachelors">
+    <label for="education2"> Bakalavr</label><br>
+    <input type="checkbox" name="education3" value="magistr" checked>
+    <label for="education3"> Magistr</label><br>
+    <input type="checkbox" name="education4" value="doctor" checked>
+    <label for="education4"> Doktor</label><br><br>
+
+    
+    <label for="">Yaş</label><br>
+    <input type="number"  min="0" max="100"><br><br>
+    <label for="">Boy</label><br>
+    <input type="number"min="0" max="300" ><br><br>
+    <label for="">Çəki</label><br>
+    <input type="number"min="0" max="200" ><br><br>
+   
+    
+    
+    <center><button type="button" autofocus onclick="alert('CV-niz Təsdiqləndi')">Təsdiqlə</button></center>
+    
+</form>
+</body>
+</html>
